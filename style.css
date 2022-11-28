@@ -17,5 +17,13 @@
     visibility: hidden;
 }
 
+#bot{
+    position: fixed;
+    bottom: 0;
+    top: 500px;
+    left: 0;
+    right: 0;
+}
+
 
 
