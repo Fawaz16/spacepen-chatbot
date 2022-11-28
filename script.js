@@ -4,10 +4,10 @@ const closebot =document.getElementById("close-bot")
 
 bot.onclick = ()=>{
     hidden.style.visibility="visible";
-    hidden.style.transition="0.4s ease";
+
     
     if ( hidden.style.visibility="visible") {
-        closebot.style.display="block";
+        closebot.style.visibility="visible";
         bot.style.display="none";
         window.innerHeight;
     }
@@ -16,7 +16,7 @@ bot.onclick = ()=>{
 closebot.onclick = ()=>{
     hidden.style.visibility="hidden";
     if ( hidden.style.visibility="hidden") {
-        closebot.style.display="none";
+        closebot.style.visibility="hidden";
         bot.style.display="block";
     }
    
